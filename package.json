@@ -1,0 +1,18 @@
+{
+  "name": "hr-timesheet-reminder-line-bot",
+  "version": "1.0.0",
+  "description": "AI HR Timesheet Reminder via LINE Messaging API",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^9.0.0",
+    "@supabase/supabase-js": "^2.110.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.21.0",
+    "serverless-http": "^4.0.0"
+  }
+}
